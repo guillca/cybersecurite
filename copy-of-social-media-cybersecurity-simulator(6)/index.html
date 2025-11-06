@@ -4,22 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Social Media Cybersecurity Simulator</title>
+
+  <!-- Tailwind (ok) -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
+
+  <!-- Si TU AS un fichier index.css, garde la ligne dessous en relatif. 
+       Sinon, SUPPRIME-la -->
+  <link rel="stylesheet" href="./index.css">
 </head>
+
 <body class="bg-gray-900 text-gray-100">
-  <div id="root"></div>
-  <script type="text/babel" data-type="module" src="./index.js"></script>
-<script type="module" src="/index.tsx"></script>
+  <div id="root" class="p-6"></div>
+
+  <!-- On charge un simple index.js (voir étape 2) -->
+  <script src="./index.js"></script>
 </body>
 </html>
